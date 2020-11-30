@@ -1,0 +1,18 @@
+.section2 {
+    margin: 24px 0;
+    max-width: 100%;
+    @include gradient;
+    font-family: $font-sans;
+    padding: 64px 20px;
+    clip-path: polygon(0 7%, 100% 0, 100% 92%, 0% 100%);
+
+    iframe {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+        width: 584px;
+        height: 225px;
+        
+    }
+}

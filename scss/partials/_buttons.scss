@@ -1,0 +1,17 @@
+button {
+    font-family: $font-mono-med;
+    font-size: 16px;
+    color: $black;
+    width: 288px;
+    height: 48px;
+    background-color: $teal;
+    border-image: none;
+    border-style: none;
+    margin: 24px 16px;
+    padding: 10px 20px;
+    @extend %center;
+}
+
+button:hover { 
+    @include button-hover;
+}

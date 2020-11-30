@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 36px 0;
+
+    h4 {
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+        height: 20px;
+        margin: 10px;
+
+        i {
+            padding: 0 30px;
+        }
+
+        i:hover {
+            color: $teal;
+        }
+    }
+}
+
+
+

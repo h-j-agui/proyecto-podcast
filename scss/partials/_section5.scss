@@ -1,0 +1,10 @@
+.section5 {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    @extend %center;
+
+    h2 {
+        grid-column: 1/3;
+    }
+}

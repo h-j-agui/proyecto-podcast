@@ -1,0 +1,7 @@
+@mixin button-hover {
+    background-image: linear-gradient(to right, $teal , $gradient-blue);
+}
+
+@mixin gradient {
+    background-image: linear-gradient(to right, $gradient-dark, $gradient-blue);
+}
