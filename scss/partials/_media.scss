@@ -42,18 +42,22 @@
         h1, span {
             font-size: 64px;
         }
+        h2 {
+            flex-basis: 100%;
+            font-size: 48px;
+        }
     }
-
+    
     .section2 {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
         position: relative;
 
-        h2 {
-            flex-basis: 100%;
-            font-size: 48px;
+        h2{
+            width: 100%;
         }
+
         iframe {
             padding: 20px 0 40px 0;
         }
@@ -78,17 +82,19 @@
     }
 
     .section4 {
-        flex-direction: column;
+    
 
-        h2 {
-            margin-left: 200px;
-        }
+        .blocks {
 
-        .blocks img {
-        flex-wrap: wrap;
-        max-width: 100%;
-        width: 32%;
-        margin: -5px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        
+            img {
+                max-width: 100%;
+                width: calc(100% / 3);
+                flex: 1 1 auto;
+            }
         }
     }
 
@@ -157,6 +163,18 @@
 
 @media screen and (max-width: 770px) {
 
+    .section2 {
+        h2 {
+            font-size: 36px;
+        }
+    }
+
+    .section3 {
+        .about h2 {
+            font-size: 36px;
+        }
+    }
+
     .section5 {
             display: flex;
             flex-direction: column;
@@ -183,6 +201,12 @@
             grid-row: 5/6;
             padding: 10px;
             text-align: center;
+        }
+    }
+
+    .section6 {
+        h2 {
+        font-size: 36px;
         }
     }
 }

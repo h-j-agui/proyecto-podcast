@@ -21,9 +21,11 @@ header {
 #checkbox {
     display: block;
     width: 40px;
-    height: 35px;
+    height: 40px;
     opacity: 0;
     position: absolute;
+    top: 0;
+    right: 0;
 }
 
 nav span {
@@ -77,6 +79,7 @@ li a {
 }
 
 #checkbox:checked ~ ul {
+    display: initial;
     opacity: 1;
     height: auto;
 }
