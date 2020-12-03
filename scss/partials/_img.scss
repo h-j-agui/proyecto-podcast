@@ -6,14 +6,24 @@
     margin-right: 20px;
 }
 
-.blocks img {
-    flex-wrap: wrap;
-    max-width: 100%;
-}
-
 .section3 {
     h2 {
+        margin-left: 30px;
         font-size: 48px;
         font-family: $font-sans;
+    }
+    p {
+        margin: 20px;
+    }
+}
+
+.blocks img {
+    width: 100%;
+    display: block;
+}
+
+.section4 {
+    h2 {
+        margin-left: 30px;
     }
 }
