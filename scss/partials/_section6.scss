@@ -1,6 +1,7 @@
 .section6 {
     @include gradient;
     font-size: $size;
+    font-family: $font-sans;
     max-width: 100%;
     max-height: 518px;
     padding: 100px;
