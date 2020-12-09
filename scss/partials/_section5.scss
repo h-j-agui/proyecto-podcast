@@ -5,6 +5,7 @@
     @extend %center;
 
     h2 {
+        font-family: $font-sans;
         grid-column: 1/3;
     }
 }

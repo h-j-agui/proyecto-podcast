@@ -24,9 +24,9 @@ nav span:nth-last-child(2) { transform-origin: 0% 100%; }
 
 .navigation ul li a:active { color: black; text-decoration: line-through; }
 
-ul { position: absolute; right: 10px; top: 50px; float: left; margin: auto; text-align: left; padding: 20px; width: 100%; height: 0; opacity: 0; background: #0000EC; }
+ul { position: absolute; right: 10px; top: 50px; float: left; margin: auto; text-align: left; width: 100%; height: 0; opacity: 0; background: #0000EC; }
 
-li a { color: #ffffff; }
+li a { color: #ffffff; margin: 20px 0; }
 
 #checkbox:checked ~ ul { display: initial; opacity: 1; height: auto; }
 
@@ -44,7 +44,8 @@ button a:hover { color: #ffffff; }
   li a { color: black; }
   a { padding: 0; line-height: 1; }
   header img { margin: 15px; padding: 5px 10px; }
-  .section1 { display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; }
+  .section1 { padding-left: 100px; justify-content: flex-start; align-items: flex-start; }
+  .section1 button { margin: 40px 10px; }
   .section1 h1, .section1 span { font-size: 64px; }
   .section1 h2 { flex-basis: 100%; font-size: 48px; }
   .section2 { display: flex; justify-content: space-around; flex-wrap: wrap; position: relative; }
@@ -74,7 +75,7 @@ button a:hover { color: #ffffff; }
   .section5 .fourth { grid-row: 5/6; padding: 10px; text-align: center; }
   .section6 h2 { font-size: 36px; } }
 
-button { font-family: "IBM Plex Mono-Medium"; font-size: 16px; color: black; width: 288px; height: 48px; background-color: #00F3BB; border-image: none; border-style: none; margin: 24px 16px; padding: 10px 20px; }
+button { font-family: "IBM Plex Mono-Medium"; font-size: 16px; color: black; width: 288px; height: 48px; background-color: #00F3BB; border-image: none; border-style: none; margin: 20px 20px 20px 10px; padding: 10px 20px; }
 
 button:hover { background-image: linear-gradient(to right, #00F3BB, #0000FF); }
 
@@ -88,7 +89,7 @@ button:hover { background-image: linear-gradient(to right, #00F3BB, #0000FF); }
 
 .section4 h2 { margin-left: 30px; font-family: "IBMPlexSans"; }
 
-.section1 { display: flex; flex-direction: column; align-items: center; flex-wrap: wrap; }
+.section1 { display: flex; flex-direction: column; align-items: left; margin: auto 20px; flex-wrap: wrap; }
 
 p { font-family: "IBM Plex Mono"; margin: auto 10px; max-width: 100%; }
 
@@ -106,7 +107,7 @@ h3 { font-family: "IBM Plex Sans-SimiBold"; font-size: 24px; display: flex; alig
 
 .white { color: #ffffff; font-size: 48px; font-weight: 100; }
 
-h1 { color: black; font-size: 36px; }
+h1 { color: black; font-size: 36px; margin-left: 10px; }
 
 .section2 { margin: 24px 0; max-width: 100%; background-image: linear-gradient(to right, #0000A3, #0000FF); font-family: "IBMPlexSans"; padding: 64px 20px; clip-path: polygon(0 7%, 100% 0, 100% 92%, 0% 100%); }
 
@@ -114,7 +115,7 @@ h1 { color: black; font-size: 36px; }
 
 .section5 { display: grid; flex-wrap: wrap; justify-content: center; }
 
-.section5 h2 { grid-column: 1/3; }
+.section5 h2 { font-family: "IBMPlexSans"; grid-column: 1/3; }
 
 .section6 { background-image: linear-gradient(to right, #0000A3, #0000FF); font-size: 36px; font-family: "IBMPlexSans"; max-width: 100%; max-height: 518px; padding: 100px; display: flex; flex-direction: column; align-items: center; clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%); }
 
